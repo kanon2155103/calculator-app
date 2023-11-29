@@ -54,7 +54,7 @@ a {
 .main {
 	position: relative;
 	z-index: 9;
-	padding-top: 8rem;
+	padding-top: 6rem;
 	flex: 1;
 }
 table {
@@ -133,12 +133,12 @@ input:active, .equal:active {
 footer {
 	bottom: 0;
 	text-align: center;
-	height: 5rem;
+	height: 4rem;
 	width: 100%;
 }
 .copy-right {
 	color: #fffffff7;
-	line-height: 5rem;
+	line-height: 4rem;
 	font-weight: 600;
 	background-color: #d8d4d6;
 	-webkit-text-stroke: 0.1px #ccc7c4;
@@ -150,9 +150,6 @@ footer {
 	}
 	.header-logo{
 		margin-left: 0;
-	}
-	.main {
-		padding-top: 6rem;
 	}
 	table {
 		background-color: transparent;
@@ -169,11 +166,5 @@ footer {
 	}
 	input:active {
 		background-color: #7a7779;
-	}
-	footer {
-		height: 4rem;
-	}
-	.copy-right {
-		line-height: 4rem;
 	}
 }
