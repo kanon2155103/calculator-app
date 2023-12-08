@@ -38,7 +38,11 @@ a {
 .header-logo {
 	margin-left: 8%;
 	font-weight: 600;
-	-webkit-text-stroke: 0.26px #595758;
+	text-shadow:
+	0.26px 0.26px 0#595758, -0.26px -0.26px 0#595758,
+	-0.26px 0.26px 0#595758, 0.26px -0.26px 0#595758,
+	0px 0.26px 0#595758,  0 -0.26px 0#595758,
+	-0.26px 0 0#595758, 0.26px 0 0#595758;
 	font-size: 1.4rem;
 	line-height: 5rem;
 	color: #fff;
