@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kanon's Calculator</title>
+	<link rel="stylesheet" href="./public/css/style.css">
+	<link rel="icon" href="./public/images/white-cat.png">
+	<script src="./app.js"></script>
+</head>
+<body>
+	<header>
+		<a href="">
+			<div class="header-logo">Kanon's Calculator</div>
+			<!-- <img class="cat-image" src="./public/images/white-cat.png" alt=""> -->
+		</a>
+	</header>
+	<div class="main">
+		<form name="calculator">
+			<table>
+				<!-- 液晶画面 -->
+				<tr class="display-column">
+					<td colspan="4">
+						<input type="text" class="display" name="display" value="" disabled>
+					</td>
+					<td><input type="button" class="clear" value="C" onclick="get_calc(this)"></td>
+				</tr>
+				<!-- ボタン -->
+				<tr>
+					<td><input type="button" value="7" onclick="get_calc(this)"></td>
+					<td><input type="button" value="8" onclick="get_calc(this)"></td>
+					<td><input type="button" value="9" onclick="get_calc(this)"></td>
+					<td><input type="button" value="÷" name="div_button" onclick="get_calc(this)" class="operator"></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="4" onclick="get_calc(this)"></td>
+					<td><input type="button" value="5" onclick="get_calc(this)"></td>
+					<td><input type="button" value="6" onclick="get_calc(this)"></td>
+					<td><input type="button" value="×" name="multi_button" onclick="get_calc(this)" class="operator"></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="1" onclick="get_calc(this)"></td>
+					<td><input type="button" value="2" onclick="get_calc(this)"></td>
+					<td><input type="button" value="3" onclick="get_calc(this)"></td>
+					<td><input type="button" value="-" onclick="get_calc(this)" class="operator"></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="0" onclick="get_calc(this)"></td>
+					<td><input type="button" value="." onclick="get_calc(this)"></td>
+					<td><input type="button" value="=" onclick="get_calc(this)" class="equal"></td>
+					<td><input type="button" value="+" onclick="get_calc(this)" class="operator"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<footer>
+		<small class="copy-right">&copy; 2023 kanon</small>
+	</footer>
+</body>
+</html>
